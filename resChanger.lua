@@ -1,3 +1,5 @@
+-- | made by m7zard | --
+
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 local StarterGui = game:GetService("StarterGui")
@@ -5,7 +7,7 @@ local TweenService = game:GetService("TweenService")
 local Camera = workspace.CurrentCamera
 
 local configFile = "m7za_config.txt"
-local defaultScale = 0.95
+local defaultScale = 1 -- | 1 is default scale | -- 
 
 local function loadConfig()
     if isfile and readfile and isfile(configFile) then
